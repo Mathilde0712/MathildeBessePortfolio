@@ -1,8 +1,13 @@
+import { Header } from "./_components/Header";
+import { Hero } from "./_components/Hero";
+import { Spacing } from "./_components/Spacing";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello world</h1>
+     <Header/>
+     <Spacing size="md" />
+     <Hero/>
     </main>
   );
 }
