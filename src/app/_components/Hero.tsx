@@ -2,8 +2,8 @@ import { Section } from "./Section";
 
 export const Hero = () => {
   return (
-    <Section className="flex max-mg:flex-col items-start">
-      <div className="flex-[2]">
+    <Section className="flex max-mg:flex-col items-start gap-4">
+      <div className="flex-[3] w-full flex flex-col gap-2">
         <h2 className="font-caption text-5xl text-primary">Mathilde Besse</h2>
         <h3 className="text-3xl font-caption">Développeuse Front-end</h3>
         <p>
@@ -14,7 +14,7 @@ export const Hero = () => {
           fonctionnelles.
         </p>
       </div>
-      <div className="flex-1 max-md:m-auto ml-auto">
+      <div className="flex-[2] max-md:m-auto ml-auto">
         <img
           src="https://avatars.githubusercontent.com/u/146964836?v=4"
           className="w-full h-auto max-w-xs"
