@@ -1,18 +1,20 @@
 import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
+import {Projet} from "./Projet"
+
 import {
   Bed,
   Building,
   Camera,
   ChefHat,
   CircleDollarSign,
-  LucideIcon,
 } from "lucide-react";
+import { ContactCard } from "./ContactCard";
 
 export const Works = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4">
-      <div className="flex-[3] w-full">
+      <div id="projet" className="flex-[3] w-full">
         <Card className=" w-full p-4 flex flex-col gap-2">
           <p className="text-lg text-muted-foreground">Projets</p>
           <div className="flex flex-col gap-4">
@@ -29,13 +31,31 @@ export const Works = () => {
         </Card>
       </div>
       <div className="flex-[2] w-full ">
-        <Card className="w-full p-4 flex-1">
+        <Card className="w-full p-4 flex-1 flex flex-col gap-2 ">
           <p className="text-lg text-muted-foreground">Contact</p>
+          <a href="https://www.linkedin.com/in/mathilde-besse-bb620223b/">
+          <ContactCard
+            image="https://avatars.githubusercontent.com/u/146964836?v=4"
+            mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgV3rvl_AvDgG9o7p9b_b1sb1ZVChFrvuNQ&s"
+            name="Mathilde Besse"
+            description="Rejoins-moi sur LinkedIn!"
+          />
+          </a>
+          <a href="https://github.com/Mathilde0712?tab=repositories">
+          <ContactCard
+            image="https://avatars.githubusercontent.com/u/146964836?v=4"
+            mediumImage="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            name="Mathilde Besse"
+            description="Rejoins-moi sur GitHub!"
+          />
+          </a>
         </Card>
       </div>
     </Section>
   );
 };
+
+
 
 const Projets = [
   {
@@ -74,24 +94,3 @@ const Projets = [
   },
 ];
 
-const Projet = (props: {
-  Logo: LucideIcon;
-  title: string;
-  description: string;
-  url: string;
-}) => {
-  return (
-    <a
-      href={props.url}
-      className="inline-flex items-center gap-4 hover:bg-accent "
-    >
-      <span className="bg-accent text-accent-foreground p-4 rounded-sm">
-        <props.Logo />
-      </span>
-      <div>
-        <p className="text-lg font-semibold">{props.title}</p>
-        <p className="text-sm text-muted-foreground">{props.description}</p>
-      </div>
-    </a>
-  );
-};
