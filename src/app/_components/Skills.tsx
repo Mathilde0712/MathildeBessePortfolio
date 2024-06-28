@@ -10,7 +10,7 @@ export const Skills = () => {
   return (
     <Section className="flex flex-col items-start gap-4">
       <h2 id="competence" className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
-        J'aime travailler sur ...
+        J&apos;aime travailler sur ...
       </h2>
 
       <div className=" w-full flex justify-between max-md:flex-col max-md:items-center ">
