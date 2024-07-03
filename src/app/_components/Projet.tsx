@@ -4,6 +4,7 @@ export const Projet = (props: {
     Logo: LucideIcon;
     title: string;
     description: string;
+    technos : string;
     url: string;
   }) => {
     return (
@@ -18,6 +19,7 @@ export const Projet = (props: {
         <div>
           <p className="text-lg font-semibold">{props.title}</p>
           <p className="text-sm text-muted-foreground">{props.description}</p>
+          <p className="text-sm text-muted-foreground">Technologies utilisées : {props.technos}</p>
         </div>
       </a>
     );

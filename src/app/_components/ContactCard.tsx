@@ -20,7 +20,7 @@ export const ContactCard = (props: {
         </div>
         <div className="flex-1">
           <div className="flex items-center gap-2">
-            <p className="text-md font-semibold">{props.name}</p>
+            <p className="text-md font-semibold max-md:text-xs">{props.name}</p>
           </div>
           <p className="text-xs text-muted-foreground">{props.description}</p>
         </div>

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Anek_Telugu } from "next/font/google";
 import { GeistSans } from "geist/font/sans";
-
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
