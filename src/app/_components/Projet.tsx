@@ -9,7 +9,8 @@ export const Projet = (props: {
     return (
       <a
         href={props.url}
-        className="inline-flex items-center gap-4 hover:bg-accent "
+        className="inline-flex items-center gap-4 hover:bg-accent"
+        target="_blank" rel="noopener noreferrer"
       >
         <span className="bg-accent text-accent-foreground p-4 rounded-sm">
           <props.Logo />

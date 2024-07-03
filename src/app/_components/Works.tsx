@@ -33,7 +33,7 @@ export const Works = () => {
       <div className="flex-[2] w-full ">
         <Card className="w-full p-4 flex-1 flex flex-col gap-2 ">
           <p className="text-lg text-muted-foreground">Contact</p>
-          <a href="https://www.linkedin.com/in/mathilde-besse-bb620223b/">
+          <a href="https://www.linkedin.com/in/mathilde-besse-bb620223b/" target="_blank" rel="noopener noreferrer" >
           <ContactCard
             image="https://avatars.githubusercontent.com/u/146964836?v=4"
             mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgV3rvl_AvDgG9o7p9b_b1sb1ZVChFrvuNQ&s"
@@ -41,7 +41,7 @@ export const Works = () => {
             description="Rejoins-moi sur LinkedIn!"
           />
           </a>
-          <a href="https://github.com/Mathilde0712?tab=repositories">
+          <a href="https://github.com/Mathilde0712?tab=repositories" target="_blank" rel="noopener noreferrer" >
           <ContactCard
             image="https://avatars.githubusercontent.com/u/146964836?v=4"
             mediumImage="https://cdn-icons-png.flaticon.com/512/25/25231.png"

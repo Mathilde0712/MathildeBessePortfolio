@@ -12,7 +12,7 @@ export const Contact = () => {
       </h2>
 
       <div className="flex flex-col w-full gap-2">
-        <a href="https://www.linkedin.com/in/mathilde-besse-bb620223b/">
+        <a href="https://www.linkedin.com/in/mathilde-besse-bb620223b/"  target="_blank" rel="noopener noreferrer" >
           <ContactCard
             image="https://avatars.githubusercontent.com/u/146964836?v=4"
             mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgV3rvl_AvDgG9o7p9b_b1sb1ZVChFrvuNQ&s"
@@ -20,7 +20,7 @@ export const Contact = () => {
             description="Rejoins-moi sur LinkedIn!"
           />
         </a>
-        <a href="https://github.com/Mathilde0712?tab=repositories">
+        <a href="https://github.com/Mathilde0712?tab=repositories" target="_blank" rel="noopener noreferrer" >
           <ContactCard
             image="https://avatars.githubusercontent.com/u/146964836?v=4"
             mediumImage="https://cdn-icons-png.flaticon.com/512/25/25231.png"
