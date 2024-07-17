@@ -47,7 +47,7 @@ export const Works = () => {
           >
             <ContactCard
               image="/images/mathilde.webp"
-              mediumImage="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+              mediumImage="/images/Octicons-mark-github.svg"
               name="Mathilde Besse"
               description="Rejoins-moi sur GitHub!"
             />
