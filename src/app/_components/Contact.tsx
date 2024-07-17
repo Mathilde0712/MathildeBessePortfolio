@@ -31,7 +31,7 @@ export const Contact = () => {
         >
           <ContactCard
             image="/images/mathilde.webp"
-            mediumImage="https://cdn-icons-png.flaticon.com/512/25/25231.png"
+            mediumImage="/images/Octicons-mark-github.svg"
             name="Mathilde Besse"
             description="Rejoins-moi sur GitHub!"
           />
@@ -40,7 +40,7 @@ export const Contact = () => {
         <a href="mailto:mathildebesse07@gmail.com">
           <ContactCard
             image="/images/mathilde.webp"
-            mediumImage="https://play-lh.googleusercontent.com/KSuaRLiI_FlDP8cM4MzJ23ml3og5Hxb9AapaGTMZ2GgR103mvJ3AAnoOFz1yheeQBBI"
+            mediumImage="/images/google_mail_gmail_logo_icon_159346.webp"
             name="mathildebesdev@gmail.com"
             description="Je serais ravie de travailler avec toi!"
           />
