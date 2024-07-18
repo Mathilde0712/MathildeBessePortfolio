@@ -9,11 +9,11 @@ const AnekTelugu = Anek_Telugu({
   variable: "--font-caption",
 });
 
-export const metadata: Metadata = {
-  title: "Mathilde Besse - Développeuse Front-end",
-  description:
-    "Développeuse web qui aime React, Tailwind, Next JS et TypeScript",
-};
+// export const metadata: Metadata = {
+//   title: "Mathilde Besse - Développeuse Front-end",
+//   description:
+//     "Développeuse web qui aime React, Tailwind, Next JS et TypeScript",
+// };
 
 export default function RootLayout({
   children,
@@ -24,6 +24,11 @@ export default function RootLayout({
     <html lang="en" className="h-full">
       <head>
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <title>Mathilde Besse - Développeuse Front-end</title>
+        <meta
+          name="description"
+          content="Développeuse web qui aime React, Tailwind, Next JS et TypeScript"
+        />
       </head>
       <body
         className={cn(
