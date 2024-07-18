@@ -10,34 +10,38 @@ export const Header = () => {
           Mathilde
         </h1>
         <div className="flex-1 max-md:flex[2]" />
-        <ul>
+        <ul className="flex">
           <li>
-            <Link href="#presentation">
-              <Button className="p-1" variant="outline">
-                Présentation
-              </Button>
+            <Link
+              href="#presentation"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground p-1"
+            >
+              Présentation
             </Link>
           </li>
           <li>
-            <Link href="#projet">
-              <Button className="p-1" variant="outline">
-                Projets
-              </Button>
+            <Link
+              href="#projet"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground p-1"
+            >
+              Projets
             </Link>
           </li>
           <li>
             {" "}
-            <Link href="#competence">
-              <Button className="p-1" variant="outline">
-                Compétences
-              </Button>
+            <Link
+              href="#competence"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground p-1"
+            >
+              Compétences
             </Link>
           </li>
           <li>
-            <Link href="#contact">
-              <Button className="p-1" variant="outline">
-                Contact
-              </Button>
+            <Link
+              href="#contact"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground p-1"
+            >
+              Contact
             </Link>
           </li>
         </ul>

@@ -1,4 +1,3 @@
-
 import { Section } from "./Section";
 import { ReactIcon } from "./icons/ReactIcon";
 import { NextJsIcon } from "./icons/NextJsIcon";
@@ -9,13 +8,16 @@ import { SassIcon } from "./icons/SassIcon";
 export const Skills = () => {
   return (
     <Section className="flex flex-col items-start gap-4">
-      <h2 id="competence" className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0">
+      <h2
+        id="competence"
+        className=" pb-2 text-3xl font-semibold tracking-tight first:mt-0"
+      >
         J&apos;aime travailler sur ...
       </h2>
 
       <div className=" w-full flex justify-between max-md:flex-col max-md:items-center ">
         <div className="flex max-md:flex-col gap-4 items-center mb-5">
-          <div className="flex flex-col gap-2  ">
+          <div className="flex flex-col gap-2 ">
             <ReactIcon
               size={42}
               className="animate-spin"
