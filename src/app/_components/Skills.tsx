@@ -19,7 +19,6 @@ export const Skills = () => {
         <div className="flex max-md:flex-col gap-4 items-center mb-5">
           <div className="flex flex-col gap-2 ">
             <ReactIcon
-              size={42}
               className="animate-spin"
               style={{ animationDuration: "10s" }}
             />
@@ -30,7 +29,6 @@ export const Skills = () => {
         <div className=" flex max-md:flex-col gap-4 items-center mb-5">
           <div className="flex flex-col gap-2">
             <NextJsIcon
-              size={42}
               className="animate-spin"
               style={{ animationDuration: "10s" }}
             />
@@ -40,7 +38,6 @@ export const Skills = () => {
         <div className="flex max-md:flex-col gap-4 items-center mb-5">
           <div className="flex flex-col gap-2">
             <TypeScriptIcon
-              size={42}
               className="animate-spin"
               style={{ animationDuration: "10s" }}
             />
@@ -52,7 +49,6 @@ export const Skills = () => {
         <div className="flex max-md:flex-col gap-4 items-center mb-5">
           <div className="flex flex-col gap-2">
             <TailwindIcon
-              size={42}
               className="animate-spin"
               style={{ animationDuration: "10s" }}
             />
@@ -62,7 +58,6 @@ export const Skills = () => {
         <div className="flex max-md:flex-col gap-4 items-center mb-5">
           <div className="flex flex-col gap-2 ">
             <SassIcon
-              size={42}
               className="animate-spin"
               style={{ animationDuration: "10s" }}
             />

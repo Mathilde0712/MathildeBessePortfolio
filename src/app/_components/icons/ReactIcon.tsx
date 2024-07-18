@@ -1,12 +1,10 @@
 import { ComponentPropsWithoutRef } from "react";
 
-export const ReactIcon = (
-  props: ComponentPropsWithoutRef<"svg"> & { size: number }
-) => {
+export const ReactIcon = (props: ComponentPropsWithoutRef<"svg">) => {
   return (
     <svg
-      width={props.size}
-      height={props.size}
+      width="42"
+      height="42"
       viewBox="0 0 256 228"
       version="1.1"
       preserveAspectRatio="xMidYMid"
